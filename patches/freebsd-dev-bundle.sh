@@ -96,9 +96,6 @@ ln -s "$(which mongod 2>/dev/null)" "$DIR/mongodb/bin/mongod"
 export PATH="$DIR/bin:$PATH"
 
 cd "$DIR/lib"
-# Overwrite the bundled version with the latest version of npm.
-#npm install "npm@$NPM_VERSION"
-
 which node
 which npm
 npm version
