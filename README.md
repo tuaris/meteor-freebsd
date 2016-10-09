@@ -24,6 +24,7 @@ This is required until the port maintainer adds the option.
 
 ```sh
 fetch https://raw.githubusercontent.com/tuaris/meteor-freebsd/master/dependencies/npm3.shar
+sh npm3.shar
 cd npm3
 make install clean
 ```
