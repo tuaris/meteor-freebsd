@@ -29,7 +29,7 @@ cd npm3
 make install clean
 ```
 
-See the troubleshooting document if you are having problems installing these ports and packages.
+See the [troubleshooting](TROUBLESHOOTING.md) document if you are having problems installing these ports and packages.
 
 ## Install Instructions
 
