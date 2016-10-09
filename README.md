@@ -23,7 +23,7 @@ Install the www/npm3 Custom port that is included in this repository.  This cust
 This is required until the port maintainer adds the option.
 
 ```sh
-sh dependencies/npm3.shar
+fetch https://raw.githubusercontent.com/tuaris/meteor-freebsd/master/dependencies/npm3.shar
 cd npm3
 make install clean
 ```
