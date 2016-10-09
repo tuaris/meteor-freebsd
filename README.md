@@ -18,7 +18,7 @@ pkg install -y mongodb32 node4 git-lite gmake python bash
 
 ### Install npm
 
-Install the www/npm3 Custom port that is included in this repository.  This customer port simply uses `www/node4` as the backend instead of `www/node`.
+Install the www/npm3 custom port that is included in this repository.  This custom port simply uses `www/node4` as the backend instead of `www/node`.
 
 This is required until the port maintainer adds the option.
 
