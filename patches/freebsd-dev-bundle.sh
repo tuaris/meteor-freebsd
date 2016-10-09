@@ -35,7 +35,7 @@ NPROCESSORS=$(/usr/bin/env bash -c "getconf NPROCESSORS_ONLN 2>/dev/null; exit 0
 PLATFORM="${UNAME}_${ARCH}"
 
 # Read the bundle version from the meteor shell script.
-BUNDLE_VERSION=$(perl -ne 'print $1 if /BUNDLE_VERSION=(\S+)/' meteor)
+BUNDLE_VERSION=$(fgrep 'BUNDLE_VERSION=' meteor | head -1 | awk -F '=' '{ print $2 }')
 if [ -z "$BUNDLE_VERSION" ]; then
     echo "BUNDLE_VERSION not found"
     exit 1
