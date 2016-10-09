@@ -1,6 +1,6 @@
 # Meteor Installer for FreeBSD
 
-This is a set of scripts and patches to install the latest version of Meteor on FreeBSD 10.3 64-bit.
+This is a set of scripts and patches to install the latest version of Meteor on FreeBSD 10.3 64-bit.  For detailed instrcutions please see http://www.unibia.com/unibianet/freebsd/install-meteor-freebsd
 
 ## Dependencies
 
