@@ -13,7 +13,7 @@ Before you can run the install process you must first ensure your system has the
 Make sure you have the following packages installed:
 
 ```sh
-pkg install mongodb32 node4 git-lite gmake python bash
+pkg install -y mongodb32 node4 git-lite gmake python bash
 ```
 
 ### Install npm
